@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F757A4417005F75004430DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F757A4317005F75004430DD /* UIKit.framework */; };
+		5F757A4617005F75004430DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F757A4517005F75004430DD /* Foundation.framework */; };
+		5F757A4817005F75004430DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F757A4717005F75004430DD /* CoreGraphics.framework */; };
+		5F757A4E17005F75004430DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F757A4C17005F75004430DD /* InfoPlist.strings */; };
+		5F757A5017005F75004430DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F757A4F17005F75004430DD /* main.m */; };
+		5F757A5417005F76004430DD /* JZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F757A5317005F76004430DD /* JZAppDelegate.m */; };
+		5F757A5617005F76004430DD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F757A5517005F76004430DD /* Default.png */; };
+		5F757A5817005F76004430DD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F757A5717005F76004430DD /* Default@2x.png */; };
+		5F757A5A17005F76004430DD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F757A5917005F76004430DD /* Default-568h@2x.png */; };
+		5F757A5D17005F76004430DD /* JZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F757A5C17005F76004430DD /* JZViewController.m */; };
+		5F757A6017005F76004430DD /* JZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F757A5E17005F76004430DD /* JZViewController.xib */; };
+		5F757A72170144F1004430DD /* libJZSpeexKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F757A6D170144DC004430DD /* libJZSpeexKit.a */; };
+		5F757A751701467F004430DD /* inputspx.spx in Resources */ = {isa = PBXBuildFile; fileRef = 5F757A731701467F004430DD /* inputspx.spx */; };
+		5F757A761701467F004430DD /* inputcaf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5F757A741701467F004430DD /* inputcaf.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F757A6C170144DC004430DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F757A67170144DC004430DD /* JZSpeexKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5F7579B317003736004430DD;
+			remoteInfo = JZSpeexKit;
+		};
+		5F757A6E170144DC004430DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F757A67170144DC004430DD /* JZSpeexKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5F7579C417003736004430DD;
+			remoteInfo = JZSpeexKitTests;
+		};
+		5F757A70170144E7004430DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F757A67170144DC004430DD /* JZSpeexKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F7579B217003736004430DD;
+			remoteInfo = JZSpeexKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F757A4017005F75004430DD /* JZSpeexKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZSpeexKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F757A4317005F75004430DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5F757A4517005F75004430DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F757A4717005F75004430DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5F757A4B17005F75004430DD /* JZSpeexKitDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JZSpeexKitDemo-Info.plist"; sourceTree = "<group>"; };
+		5F757A4D17005F75004430DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F757A4F17005F75004430DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F757A5117005F76004430DD /* JZSpeexKitDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JZSpeexKitDemo-Prefix.pch"; sourceTree = "<group>"; };
+		5F757A5217005F76004430DD /* JZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZAppDelegate.h; sourceTree = "<group>"; };
+		5F757A5317005F76004430DD /* JZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZAppDelegate.m; sourceTree = "<group>"; };
+		5F757A5517005F76004430DD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5F757A5717005F76004430DD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5F757A5917005F76004430DD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5F757A5B17005F76004430DD /* JZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZViewController.h; sourceTree = "<group>"; };
+		5F757A5C17005F76004430DD /* JZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZViewController.m; sourceTree = "<group>"; };
+		5F757A5F17005F76004430DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JZViewController.xib; sourceTree = "<group>"; };
+		5F757A67170144DC004430DD /* JZSpeexKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JZSpeexKit.xcodeproj; path = ../JZSpeexKit.xcodeproj; sourceTree = "<group>"; };
+		5F757A731701467F004430DD /* inputspx.spx */ = {isa = PBXFileReference; lastKnownFileType = file; path = inputspx.spx; sourceTree = "<group>"; };
+		5F757A741701467F004430DD /* inputcaf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = inputcaf.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F757A3D17005F75004430DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F757A72170144F1004430DD /* libJZSpeexKit.a in Frameworks */,
+				5F757A4417005F75004430DD /* UIKit.framework in Frameworks */,
+				5F757A4617005F75004430DD /* Foundation.framework in Frameworks */,
+				5F757A4817005F75004430DD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F757A3717005F75004430DD = {
+			isa = PBXGroup;
+			children = (
+				5F757A66170144A7004430DD /* JZSpeexKit */,
+				5F757A4917005F75004430DD /* JZSpeexKitDemo */,
+				5F757A4217005F75004430DD /* Frameworks */,
+				5F757A4117005F75004430DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F757A4117005F75004430DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F757A4017005F75004430DD /* JZSpeexKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F757A4217005F75004430DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F757A4317005F75004430DD /* UIKit.framework */,
+				5F757A4517005F75004430DD /* Foundation.framework */,
+				5F757A4717005F75004430DD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F757A4917005F75004430DD /* JZSpeexKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5F757A5217005F76004430DD /* JZAppDelegate.h */,
+				5F757A5317005F76004430DD /* JZAppDelegate.m */,
+				5F757A5B17005F76004430DD /* JZViewController.h */,
+				5F757A5C17005F76004430DD /* JZViewController.m */,
+				5F757A5E17005F76004430DD /* JZViewController.xib */,
+				5F757A4A17005F75004430DD /* Supporting Files */,
+			);
+			path = JZSpeexKitDemo;
+			sourceTree = "<group>";
+		};
+		5F757A4A17005F75004430DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F757A731701467F004430DD /* inputspx.spx */,
+				5F757A741701467F004430DD /* inputcaf.wav */,
+				5F757A4B17005F75004430DD /* JZSpeexKitDemo-Info.plist */,
+				5F757A4C17005F75004430DD /* InfoPlist.strings */,
+				5F757A4F17005F75004430DD /* main.m */,
+				5F757A5117005F76004430DD /* JZSpeexKitDemo-Prefix.pch */,
+				5F757A5517005F76004430DD /* Default.png */,
+				5F757A5717005F76004430DD /* Default@2x.png */,
+				5F757A5917005F76004430DD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F757A66170144A7004430DD /* JZSpeexKit */ = {
+			isa = PBXGroup;
+			children = (
+				5F757A67170144DC004430DD /* JZSpeexKit.xcodeproj */,
+			);
+			name = JZSpeexKit;
+			sourceTree = "<group>";
+		};
+		5F757A68170144DC004430DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F757A6D170144DC004430DD /* libJZSpeexKit.a */,
+				5F757A6F170144DC004430DD /* JZSpeexKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F757A3F17005F75004430DD /* JZSpeexKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F757A6317005F76004430DD /* Build configuration list for PBXNativeTarget "JZSpeexKitDemo" */;
+			buildPhases = (
+				5F757A3C17005F75004430DD /* Sources */,
+				5F757A3D17005F75004430DD /* Frameworks */,
+				5F757A3E17005F75004430DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F757A71170144E7004430DD /* PBXTargetDependency */,
+			);
+			name = JZSpeexKitDemo;
+			productName = JZSpeexKitDemo;
+			productReference = 5F757A4017005F75004430DD /* JZSpeexKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F757A3817005F75004430DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JZ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = JeffZhao;
+			};
+			buildConfigurationList = 5F757A3B17005F75004430DD /* Build configuration list for PBXProject "JZSpeexKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F757A3717005F75004430DD;
+			productRefGroup = 5F757A4117005F75004430DD /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5F757A68170144DC004430DD /* Products */;
+					ProjectRef = 5F757A67170144DC004430DD /* JZSpeexKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5F757A3F17005F75004430DD /* JZSpeexKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5F757A6D170144DC004430DD /* libJZSpeexKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libJZSpeexKit.a;
+			remoteRef = 5F757A6C170144DC004430DD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5F757A6F170144DC004430DD /* JZSpeexKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JZSpeexKitTests.octest;
+			remoteRef = 5F757A6E170144DC004430DD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F757A3E17005F75004430DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F757A4E17005F75004430DD /* InfoPlist.strings in Resources */,
+				5F757A5617005F76004430DD /* Default.png in Resources */,
+				5F757A5817005F76004430DD /* Default@2x.png in Resources */,
+				5F757A5A17005F76004430DD /* Default-568h@2x.png in Resources */,
+				5F757A6017005F76004430DD /* JZViewController.xib in Resources */,
+				5F757A751701467F004430DD /* inputspx.spx in Resources */,
+				5F757A761701467F004430DD /* inputcaf.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F757A3C17005F75004430DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F757A5017005F75004430DD /* main.m in Sources */,
+				5F757A5417005F76004430DD /* JZAppDelegate.m in Sources */,
+				5F757A5D17005F76004430DD /* JZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F757A71170144E7004430DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JZSpeexKit;
+			targetProxy = 5F757A70170144E7004430DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F757A4C17005F75004430DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F757A4D17005F75004430DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5F757A5E17005F76004430DD /* JZViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F757A5F17005F76004430DD /* en */,
+			);
+			name = JZViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F757A6117005F76004430DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../JZSpeexKit\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F757A6217005F76004430DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../JZSpeexKit\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F757A6417005F76004430DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JZSpeexKitDemo/JZSpeexKitDemo-Prefix.pch";
+				INFOPLIST_FILE = "JZSpeexKitDemo/JZSpeexKitDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5F757A6517005F76004430DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JZSpeexKitDemo/JZSpeexKitDemo-Prefix.pch";
+				INFOPLIST_FILE = "JZSpeexKitDemo/JZSpeexKitDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F757A3B17005F75004430DD /* Build configuration list for PBXProject "JZSpeexKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F757A6117005F76004430DD /* Debug */,
+				5F757A6217005F76004430DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F757A6317005F76004430DD /* Build configuration list for PBXNativeTarget "JZSpeexKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F757A6417005F76004430DD /* Debug */,
+				5F757A6517005F76004430DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F757A3817005F75004430DD /* Project object */;
+}

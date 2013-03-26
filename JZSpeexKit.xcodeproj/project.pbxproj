@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F7579B717003736004430DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7579B617003736004430DD /* Foundation.framework */; };
+		5F7579C617003736004430DD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7579C517003736004430DD /* SenTestingKit.framework */; };
+		5F7579C917003736004430DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7579B617003736004430DD /* Foundation.framework */; };
+		5F7579CC17003736004430DD /* libJZSpeexKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7579B317003736004430DD /* libJZSpeexKit.a */; };
+		5F7579D217003736004430DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F7579D017003736004430DD /* InfoPlist.strings */; };
+		5F7579D517003736004430DD /* JZSpeexKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7579D417003736004430DD /* JZSpeexKitTests.m */; };
+		5F7579F417003809004430DD /* skeleton.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F7579E717003809004430DD /* skeleton.c */; };
+		5F7579F517003809004430DD /* speexdec.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F7579E917003809004430DD /* speexdec.c */; };
+		5F7579F617003809004430DD /* JZSpeexDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7579EB17003809004430DD /* JZSpeexDecoder.m */; };
+		5F7579F717003809004430DD /* speexenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F7579EC17003809004430DD /* speexenc.c */; };
+		5F7579F817003809004430DD /* JZSpeexEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7579EE17003809004430DD /* JZSpeexEncoder.m */; };
+		5F7579F917003809004430DD /* wav_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F7579F017003809004430DD /* wav_io.c */; };
+		5F7579FA17003809004430DD /* wave_out.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F7579F217003809004430DD /* wave_out.c */; };
+		5F757A0F17003870004430DD /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7579FB17003870004430DD /* libogg.a */; };
+		5F757A1017003870004430DD /* libspeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7579FC17003870004430DD /* libspeex.a */; };
+		5F757A1117003870004430DD /* libspeexdsp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7579FD17003870004430DD /* libspeexdsp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F7579CA17003736004430DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F7579AB17003736004430DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F7579B217003736004430DD;
+			remoteInfo = JZSpeexKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F7579B117003736004430DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5F7579B317003736004430DD /* libJZSpeexKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJZSpeexKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7579B617003736004430DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F7579BA17003736004430DD /* JZSpeexKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JZSpeexKit-Prefix.pch"; sourceTree = "<group>"; };
+		5F7579C417003736004430DD /* JZSpeexKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZSpeexKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7579C517003736004430DD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5F7579CF17003736004430DD /* JZSpeexKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JZSpeexKitTests-Info.plist"; sourceTree = "<group>"; };
+		5F7579D117003736004430DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F7579D317003736004430DD /* JZSpeexKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZSpeexKitTests.h; sourceTree = "<group>"; };
+		5F7579D417003736004430DD /* JZSpeexKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZSpeexKitTests.m; sourceTree = "<group>"; };
+		5F7579E717003809004430DD /* skeleton.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = skeleton.c; sourceTree = "<group>"; };
+		5F7579E817003809004430DD /* skeleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skeleton.h; sourceTree = "<group>"; };
+		5F7579E917003809004430DD /* speexdec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = speexdec.c; sourceTree = "<group>"; };
+		5F7579EA17003809004430DD /* JZSpeexDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZSpeexDecoder.h; sourceTree = "<group>"; };
+		5F7579EB17003809004430DD /* JZSpeexDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZSpeexDecoder.m; sourceTree = "<group>"; };
+		5F7579EC17003809004430DD /* speexenc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = speexenc.c; sourceTree = "<group>"; };
+		5F7579ED17003809004430DD /* JZSpeexEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZSpeexEncoder.h; sourceTree = "<group>"; };
+		5F7579EE17003809004430DD /* JZSpeexEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZSpeexEncoder.m; sourceTree = "<group>"; };
+		5F7579F017003809004430DD /* wav_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wav_io.c; sourceTree = "<group>"; };
+		5F7579F117003809004430DD /* wav_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav_io.h; sourceTree = "<group>"; };
+		5F7579F217003809004430DD /* wave_out.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wave_out.c; sourceTree = "<group>"; };
+		5F7579F317003809004430DD /* wave_out.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wave_out.h; sourceTree = "<group>"; };
+		5F7579FB17003870004430DD /* libogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libogg.a; path = JZSpeexKit/libogg.a; sourceTree = "<group>"; };
+		5F7579FC17003870004430DD /* libspeex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libspeex.a; path = JZSpeexKit/libspeex.a; sourceTree = "<group>"; };
+		5F7579FD17003870004430DD /* libspeexdsp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libspeexdsp.a; path = JZSpeexKit/libspeexdsp.a; sourceTree = "<group>"; };
+		5F7579FF17003870004430DD /* config_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_types.h; sourceTree = "<group>"; };
+		5F757A0017003870004430DD /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ogg.h; sourceTree = "<group>"; };
+		5F757A0117003870004430DD /* os_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = os_types.h; sourceTree = "<group>"; };
+		5F757A0317003870004430DD /* speex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex.h; sourceTree = "<group>"; };
+		5F757A0417003870004430DD /* speex_bits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_bits.h; sourceTree = "<group>"; };
+		5F757A0517003870004430DD /* speex_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_buffer.h; sourceTree = "<group>"; };
+		5F757A0617003870004430DD /* speex_callbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_callbacks.h; sourceTree = "<group>"; };
+		5F757A0717003870004430DD /* speex_config_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_config_types.h; sourceTree = "<group>"; };
+		5F757A0817003870004430DD /* speex_echo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_echo.h; sourceTree = "<group>"; };
+		5F757A0917003870004430DD /* speex_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_header.h; sourceTree = "<group>"; };
+		5F757A0A17003870004430DD /* speex_jitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_jitter.h; sourceTree = "<group>"; };
+		5F757A0B17003870004430DD /* speex_preprocess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_preprocess.h; sourceTree = "<group>"; };
+		5F757A0C17003870004430DD /* speex_resampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_resampler.h; sourceTree = "<group>"; };
+		5F757A0D17003870004430DD /* speex_stereo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_stereo.h; sourceTree = "<group>"; };
+		5F757A0E17003870004430DD /* speex_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_types.h; sourceTree = "<group>"; };
+		5F757A3417004D2A004430DD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		5F757A3517004D30004430DD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		5F757A3617004EBE004430DD /* JZSpeexKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZSpeexKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F7579B017003736004430DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7579B717003736004430DD /* Foundation.framework in Frameworks */,
+				5F757A0F17003870004430DD /* libogg.a in Frameworks */,
+				5F757A1017003870004430DD /* libspeex.a in Frameworks */,
+				5F757A1117003870004430DD /* libspeexdsp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7579C017003736004430DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7579C617003736004430DD /* SenTestingKit.framework in Frameworks */,
+				5F7579C917003736004430DD /* Foundation.framework in Frameworks */,
+				5F7579CC17003736004430DD /* libJZSpeexKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F7579AA17003736004430DD = {
+			isa = PBXGroup;
+			children = (
+				5F7579B817003736004430DD /* JZSpeexKit */,
+				5F7579CD17003736004430DD /* JZSpeexKitTests */,
+				5F7579B517003736004430DD /* Frameworks */,
+				5F7579B417003736004430DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F7579B417003736004430DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F7579B317003736004430DD /* libJZSpeexKit.a */,
+				5F7579C417003736004430DD /* JZSpeexKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F7579B517003736004430DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F7579FB17003870004430DD /* libogg.a */,
+				5F7579FC17003870004430DD /* libspeex.a */,
+				5F7579FD17003870004430DD /* libspeexdsp.a */,
+				5F7579B617003736004430DD /* Foundation.framework */,
+				5F7579C517003736004430DD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F7579B817003736004430DD /* JZSpeexKit */ = {
+			isa = PBXGroup;
+			children = (
+				5F757A3617004EBE004430DD /* JZSpeexKit.h */,
+				5F7579FE17003870004430DD /* ogg */,
+				5F757A0217003870004430DD /* speex */,
+				5F7579E717003809004430DD /* skeleton.c */,
+				5F7579E817003809004430DD /* skeleton.h */,
+				5F7579E917003809004430DD /* speexdec.c */,
+				5F7579EA17003809004430DD /* JZSpeexDecoder.h */,
+				5F7579EB17003809004430DD /* JZSpeexDecoder.m */,
+				5F7579EC17003809004430DD /* speexenc.c */,
+				5F7579ED17003809004430DD /* JZSpeexEncoder.h */,
+				5F7579EE17003809004430DD /* JZSpeexEncoder.m */,
+				5F7579F017003809004430DD /* wav_io.c */,
+				5F7579F117003809004430DD /* wav_io.h */,
+				5F7579F217003809004430DD /* wave_out.c */,
+				5F7579F317003809004430DD /* wave_out.h */,
+				5F7579B917003736004430DD /* Supporting Files */,
+			);
+			path = JZSpeexKit;
+			sourceTree = "<group>";
+		};
+		5F7579B917003736004430DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F7579BA17003736004430DD /* JZSpeexKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F7579CD17003736004430DD /* JZSpeexKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F7579D317003736004430DD /* JZSpeexKitTests.h */,
+				5F7579D417003736004430DD /* JZSpeexKitTests.m */,
+				5F7579CE17003736004430DD /* Supporting Files */,
+			);
+			path = JZSpeexKitTests;
+			sourceTree = "<group>";
+		};
+		5F7579CE17003736004430DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F7579CF17003736004430DD /* JZSpeexKitTests-Info.plist */,
+				5F7579D017003736004430DD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F7579FE17003870004430DD /* ogg */ = {
+			isa = PBXGroup;
+			children = (
+				5F7579FF17003870004430DD /* config_types.h */,
+				5F757A0017003870004430DD /* ogg.h */,
+				5F757A0117003870004430DD /* os_types.h */,
+			);
+			path = ogg;
+			sourceTree = "<group>";
+		};
+		5F757A0217003870004430DD /* speex */ = {
+			isa = PBXGroup;
+			children = (
+				5F757A0317003870004430DD /* speex.h */,
+				5F757A0417003870004430DD /* speex_bits.h */,
+				5F757A0517003870004430DD /* speex_buffer.h */,
+				5F757A0617003870004430DD /* speex_callbacks.h */,
+				5F757A0717003870004430DD /* speex_config_types.h */,
+				5F757A0817003870004430DD /* speex_echo.h */,
+				5F757A0917003870004430DD /* speex_header.h */,
+				5F757A0A17003870004430DD /* speex_jitter.h */,
+				5F757A0B17003870004430DD /* speex_preprocess.h */,
+				5F757A0C17003870004430DD /* speex_resampler.h */,
+				5F757A0D17003870004430DD /* speex_stereo.h */,
+				5F757A0E17003870004430DD /* speex_types.h */,
+			);
+			path = speex;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F7579B217003736004430DD /* JZSpeexKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F7579D817003736004430DD /* Build configuration list for PBXNativeTarget "JZSpeexKit" */;
+			buildPhases = (
+				5F7579AF17003736004430DD /* Sources */,
+				5F7579B017003736004430DD /* Frameworks */,
+				5F7579B117003736004430DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JZSpeexKit;
+			productName = JZSpeexKit;
+			productReference = 5F7579B317003736004430DD /* libJZSpeexKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5F7579C317003736004430DD /* JZSpeexKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F7579DB17003736004430DD /* Build configuration list for PBXNativeTarget "JZSpeexKitTests" */;
+			buildPhases = (
+				5F7579BF17003736004430DD /* Sources */,
+				5F7579C017003736004430DD /* Frameworks */,
+				5F7579C117003736004430DD /* Resources */,
+				5F7579C217003736004430DD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F7579CB17003736004430DD /* PBXTargetDependency */,
+			);
+			name = JZSpeexKitTests;
+			productName = JZSpeexKitTests;
+			productReference = 5F7579C417003736004430DD /* JZSpeexKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F7579AB17003736004430DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = JeffZhao;
+			};
+			buildConfigurationList = 5F7579AE17003736004430DD /* Build configuration list for PBXProject "JZSpeexKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 5F7579AA17003736004430DD;
+			productRefGroup = 5F7579B417003736004430DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F7579B217003736004430DD /* JZSpeexKit */,
+				5F7579C317003736004430DD /* JZSpeexKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F7579C117003736004430DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7579D217003736004430DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F7579C217003736004430DD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F7579AF17003736004430DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7579F417003809004430DD /* skeleton.c in Sources */,
+				5F7579F517003809004430DD /* speexdec.c in Sources */,
+				5F7579F617003809004430DD /* JZSpeexDecoder.m in Sources */,
+				5F7579F717003809004430DD /* speexenc.c in Sources */,
+				5F7579F817003809004430DD /* JZSpeexEncoder.m in Sources */,
+				5F7579F917003809004430DD /* wav_io.c in Sources */,
+				5F7579FA17003809004430DD /* wave_out.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7579BF17003736004430DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7579D517003736004430DD /* JZSpeexKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F7579CB17003736004430DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F7579B217003736004430DD /* JZSpeexKit */;
+			targetProxy = 5F7579CA17003736004430DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F7579D017003736004430DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F7579D117003736004430DD /* en */,
+				5F757A3417004D2A004430DD /* zh-Hans */,
+				5F757A3517004D30004430DD /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F7579D617003736004430DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F7579D717003736004430DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F7579D917003736004430DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/JZSpeexKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JZSpeexKit/JZSpeexKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/JZSpeexKit\"",
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/JZSpeexKit\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5F7579DA17003736004430DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/JZSpeexKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JZSpeexKit/JZSpeexKit-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/JZSpeexKit\"",
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/JZSpeexKit\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5F7579DC17003736004430DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JZSpeexKit/JZSpeexKit-Prefix.pch";
+				INFOPLIST_FILE = "JZSpeexKitTests/JZSpeexKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5F7579DD17003736004430DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JZSpeexKit/JZSpeexKit-Prefix.pch";
+				INFOPLIST_FILE = "JZSpeexKitTests/JZSpeexKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F7579AE17003736004430DD /* Build configuration list for PBXProject "JZSpeexKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7579D617003736004430DD /* Debug */,
+				5F7579D717003736004430DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F7579D817003736004430DD /* Build configuration list for PBXNativeTarget "JZSpeexKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7579D917003736004430DD /* Debug */,
+				5F7579DA17003736004430DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F7579DB17003736004430DD /* Build configuration list for PBXNativeTarget "JZSpeexKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7579DC17003736004430DD /* Debug */,
+				5F7579DD17003736004430DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F7579AB17003736004430DD /* Project object */;
+}
